@@ -1,0 +1,1185 @@
+body{
+    background-color: #433c36;
+    margin: 60px;  
+    font-family: 'Silkscreen', sans-serif;
+   
+}
+
+p{
+    
+}
+
+span{
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 7pt;
+}
+
+.shelf{
+    background-color: #fc580c;
+    border: 10px solid #7cd0f8;
+    width: 1780px;
+    height: 1470px;
+    position:relative;
+}
+.box1{
+    display: block;
+    width:348px;
+    border: 10px solid #7cd0f8;
+    border-top: transparent;
+    border-bottom: transparent;
+    border-left: transparent;
+    background-color: transparent;
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+.box2{
+    display: block;
+    width:348px;
+    border: 10px solid #7cd0f8;
+    border-top: transparent;
+    border-bottom: transparent;
+    border-left: transparent;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 358px;
+}
+.box3{
+    display: block;
+    width:348px;
+    border: 10px solid #7cd0f8;
+    border-top: transparent;
+    border-bottom: transparent;
+    border-left: transparent;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 716px;
+}
+.box4{
+    display: block;
+    width:348px;
+    border: 10px solid #7cd0f8;
+    border-top: transparent;
+    border-bottom: transparent;
+    border-left: transparent;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 1074px;
+}
+.box5{
+    display: block;
+    width:348px;
+    border: 10px solid #7cd0f8;
+    border-top: transparent;
+    border-bottom: transparent;
+    border-left: transparent;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 1432px;
+}
+.line1{
+    background-color: #7cd0f8;
+    height: 10px;
+}
+.line-ver{
+    background-color: #7cd0f8;
+    width: 10px;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    left: 169px;   
+}
+.book1{
+    background-color: #fc580c;
+    width: 188px;/* 책 원래 너비는 348 */
+    height: 200px;
+    border: 160px solid #5eb4ed;
+    border-top: 160px solid #f7f5f2;
+    border-bottom: 0px solid #f7f5f2;
+    border-right: transparent; 
+}
+.book1empty{
+    background-color: transparent;
+    width: 348px;/* 책 원래 너비는 348 */
+    height: 360px;
+    position: absolute;
+}
+.realbooks{
+    background-image: linear-gradient(to top, #bada55, #f6fde2);
+    width: 230px;
+    height: 30px;
+    text-align: center;
+    letter-spacing : -0.1em;
+    line-height: 0.8em;
+    font-size: 10pt;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.bookbox{
+    width: 230px;
+    height: 230px;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    right: 0; 
+}
+.cup{
+    position: relative;
+    opacity: 85%;
+    height: 140px;
+    margin-left: 60px;   
+}
+.light{
+    background-image: linear-gradient(to left, transparent, white, transparent);
+    opacity: 50%;
+    height: 140px;
+    width: 35px;
+    position: absolute;
+    top: 0;
+    left: 93px;
+}
+.cup-head{
+    background-color: #fd94b7;
+    width: 100px;
+    height: 80px;
+    border-radius: 0 0 100px 100px;
+}
+.cup-neck{
+    background-color: #fd94b7;
+    width: 50px;
+    height: 120px;
+    margin-left: 25px;
+}
+.cup-bottom{
+    width: 50px;
+    height: 120px;
+    margin-left: -5px;
+    border: 30px solid black;
+    border-top: transparent;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 20px solid #fd94b7;
+    position: absolute;
+    top: 0;
+}
+.book1-2{
+    background-color: #fc580c;
+    width: 9px;/* 책 원래 너비는 169 */
+    height: 260px;
+    border: 160px solid #5eb4ed;
+    border-top: 80px solid #f7f5f2;
+    border-bottom: 20px solid #f7f5f2;
+    border-right: 0px solid #5eb4ed;
+    position:absolute;
+    float: right;
+}
+.book1-3{
+    background-color: #fc580c;
+    width: 49px;/* 책 원래 너비는 169 */
+    height: 260px;
+    border: 120px solid #5eb4ed;
+    border-top: 80px solid #f7f5f2;
+    border-bottom: 20px solid #f7f5f2;
+    border-right: 0px solid #5eb4ed;
+    position:absolute;
+    right:0; 
+}
+.blenk1{
+    background-color: transparent;
+    width: 338px;/* 책 원래 너비는 348 */
+    height: 360px;
+    position: relative;
+}
+.bookbox1-2{
+    width: 308px;
+    height: 180px;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    column-gap: 48px;
+    flex-wrap: wrap;
+    justify-content: flex-end;   
+}
+.ballbox{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 0;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    position: relative;
+    top: 10px;
+    left: 35px;
+}
+.ball{
+    background-color: antiquewhite;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;   
+}
+.ball2{
+    background-color: antiquewhite;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex; 
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.shortbookstop{
+    width: 0;
+    height: 0;
+    border-left: 130px solid transparent;
+    border-bottom: 10px solid #1d63b3;
+}
+.shortbooks{
+    background-image: linear-gradient(to top, #1d63b3, white);
+    width: 130px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    letter-spacing : -0.1em;
+    line-height: 1em;
+    font-size: 10pt;
+}
+.book1-4{
+    background-color: #fc580c;
+    width: 188px;/* 책 원래 너비는 348 */
+    height: 300px;
+    border: 160px solid #5eb4ed;
+    border-top: 0px solid #f7f5f2;
+    border-bottom: 160px solid #f7f5f2;
+    border-right: 0 solid #5eb4ed;
+}
+.book2{
+    background-color: #fc580c;
+    width: 268px;/* 책 원래 너비는 348 */
+    height: 250px;
+    border: 80px solid #5eb4ed;
+    border-top: 160px solid #f7f5f2;
+    border-bottom: 0px solid #f7f5f2;
+    border-right: transparent;
+}
+.bookbox2{
+    width: 230px;
+    height: 270px;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    right: 0; 
+}
+.realbooks2{
+    background-image: linear-gradient(to top, #ef6161, #fee6e6);
+    width: 230px;
+    height: 30px;
+    text-align: center;
+    letter-spacing : -0.1em;
+    line-height: 0.8em;
+    font-size: 10pt;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.realbooks3{
+    background-image: linear-gradient(to top, #fdef85, #fefcf0);
+    width: 230px;
+    height: 30px;
+    text-align: center;
+    letter-spacing : -0.1em;
+    line-height: 0.8em;
+    font-size: 10pt;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.book2-2{
+    background-color: #fc580c;
+    width: 268px;/* 책 원래 너비는 348 */
+    height: 280px;
+    border: 80px solid #5eb4ed;
+    border-top: 40px solid #f7f5f2;
+    border-bottom: 40px solid #f7f5f2;
+    border-right: 0px solid #5eb4ed;
+    position: relative;
+}
+.bookbox2-2{
+    width: 260px;
+    height: 180px;
+    background-color: black;
+    position: absolute;
+    bottom: -40px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    column-gap: 0px;
+    flex-wrap: wrap;
+    justify-content: flex-end;   
+}
+.shortbooks2-2{
+    background-image: linear-gradient(to top, #1d63b3, white);
+    width: 130px;
+    height: 45px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    letter-spacing : -0.1em;
+    line-height: 1em;
+    font-size: 10pt;
+}
+.shortbooks2-2-1{
+    background-image: linear-gradient(to top, #70e958, white);
+    width: 130px;
+    height: 45px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    letter-spacing : -0.1em;
+    line-height: 1em;
+    font-size: 10pt;
+}
+.book2-3{
+    background-color: #fc580c;
+    width: 268px;/* 책 원래 너비는 348 */
+    height: 250px;
+    border: 80px solid #5eb4ed;
+    border-top: 0px solid #f7f5f2;
+    border-bottom: 160px solid #f7f5f2;
+    border-right: 0 solid #5eb4ed;
+    position: relative;
+}
+.book2-3box{
+    background-color: transparent;
+    width: 348px;
+    height: 410px;
+    position: relative;
+    top: 0;
+    left: -80px;
+}
+.book2-3-1{
+    background-color: transparent;
+    width: 89px;
+    height: 120px;
+    border: 80px solid #5eb4ed;
+    border-top: 0px solid;
+    border-bottom: 80px solid #f7f5f2;
+    border-right: 0;
+}
+.peachbox{
+    position: absolute;
+    top: 110px;
+    left: 40px;
+}
+.peachbox2{
+    position: absolute;
+    top: 55px;
+    left: 40px;
+    transform: rotate(5deg);
+}
+.peachbox3{
+    position: absolute;
+    top: 13px;
+    left: 35px;
+    transform: rotate(-7deg);
+}
+.peach{
+    width: 96px;
+    height: 50px;
+    background: radial-gradient(circle, #ff9f69, #ff6b6b);
+    border-radius: 32px 32px 48px 48px;
+    position:absolute;
+    top: 16px;
+    left: 5px;
+}
+.peach:before {
+    top: -5px;
+    left: 30px;
+    content:"";
+    width: 65px;
+    height: 60px;
+    background: radial-gradient(circle, #ff9f69, #ff6b6b);
+    border-radius: 40px;
+    position: absolute;
+    box-shadow: -24px 0 0 #ff6b6b, inset 0 0 10px 0 #ff6b6b;   
+}
+.peachstem{
+    width: 5px;
+    height: 13px;
+    background-color:brown;
+    position:absolute;
+    z-index: 2;
+    top: 5px;
+    left: 53px;
+    transform: rotate(20deg);
+    border-radius: 2px;
+}
+.peach2{
+    width: 96px;
+    height: 50px;
+    background: radial-gradient(circle, #fdf681, #feaeba);
+    border-radius: 32px 32px 48px 48px;
+    position:absolute;
+    top: 16px;
+    left: 5px;
+}
+.peach2:before {
+    top: -5px;
+    left: 30px;
+    content:"";
+    width: 65px;
+    height: 60px;
+    background: radial-gradient(circle, #fdf681, #fd8fab);
+    border-radius: 40px;
+    position: absolute;
+    box-shadow: -24px 0 0 #feaeba, inset 0 0 10px 0 #feaeba;   
+}
+.book2-3-2{
+    background-color: transparent;
+    width: 169px;
+    height: 200px; 
+}
+.halfline{
+    background: #7cd0f8; 
+    width: 169px;
+    height: 10px;
+}
+.book2-3-3{
+    background-color: transparent;
+    width: 109px;
+    height: 250px;
+    position: absolute;
+    left: 179px;
+    top: 0;
+    border: 60px solid #5eb4ed;
+    border-top: 0px solid #f7f5f2;
+    border-bottom: 160px solid #f7f5f2;
+    border-right: 0 solid #5eb4ed;   
+}
+.book3{
+    background-color: #fc580c;
+    width: 268px;/* 책 원래 너비는 348 */
+    height: 300px;
+    border: 40px solid #5eb4ed;
+    border-top: 160px solid #f7f5f2;
+    border-bottom: 0px solid #f7f5f2;
+    border-right: 40px solid #5eb4ed;
+}
+.book3empty{
+    background-color: transparent;
+    width: 348px;/* 책 원래 너비는 348 */
+    height: 460px;
+    position: absolute;
+    top: 0;
+}
+.flowers{
+    width: 100px; 
+    position: absolute;
+    top: 60px;
+    left: 40px;
+}
+.stem1{
+    width: 30px;
+    height: 350px;
+    border: solid 8px #bada55;
+    border-color: transparent #bada55 transparent transparent;
+    border-radius: 100% 100% 100% 100%;
+    position: absolute;
+    top: 25px;
+    left: 5px;
+}
+.stem2{
+    width: 50px;
+    height: 250px;
+    border: solid 8px #bada55;
+    border-color: transparent transparent transparent #bada55;
+    border-radius: 100% 100% 100% 100%;
+    position: absolute;
+    top: 60px;
+    left: 52px;
+    transform: rotate(5deg);
+}
+.leaf{
+    width: 20px;
+	height: 20px;
+	border-radius: 0 15px;
+	background-color: #1f801f;
+	transform: rotate(0deg);
+    position: absolute;
+    top: 35px;
+    left: 3px;
+    transform: rotate(-20deg)
+}
+.flowerbox{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 0;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    position: relative;
+    transform: rotate(-15deg)
+}
+.flower{
+    background-image: radial-gradient(closest-side, #f69d3c,#f69d3c, #e66465);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+}
+.flower1{
+    background-image: radial-gradient(closest-side, #3f87a6, #ebf8e1, #f69d3c);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex; 
+    position: absolute;
+    top: 15px;
+    left: 15px;   
+}
+.flower2box{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 0;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    position: relative;
+    left: 65px;
+    transform: rotate(20deg);
+    top: -10px;
+}
+.flower2{
+    background-image: radial-gradient(closest-side, #fef666,  #fef666, #f69d3c);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    display: flex;
+}
+.flower2-1{
+    background-image: radial-gradient(closest-side, #3f87a6, #ebf8e1, #fef666);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    display: flex; 
+    position: absolute;
+    top: 10px;
+    left: 10px;   
+}
+.vase{
+    width: 150px;
+    opacity: 70%;
+    position: absolute;
+    top: 200px;
+    left: 15px;
+}
+.vaseneck{
+    width: 40px;
+    height: 130px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    
+}
+.vasebody{
+    width: 150px;
+    height:130px;
+    border-radius: 60px;
+    background-color: aliceblue;
+    margin: 0 auto;
+}
+.bookbox3-1{
+    width: 150px;
+    height: 380px;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    column-gap: 48px;
+    flex-wrap: wrap;
+    justify-content: flex-end;   
+}
+.shortbooks2{
+    background-image: linear-gradient(to top, #1d63b3, white);
+    width: 150px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    letter-spacing : -0.1em;
+    line-height: 1em;
+    font-size: 10pt;
+}
+.bookright{
+    background-color: transparent;
+    height: 200px;
+    width: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 150px;
+    border: 18px solid #1d63b3;
+    border-bottom: 0;
+    border-top: 130px solid transparent;
+    border-left: 0;
+}
+.blenk3{
+    background-color: transparent;
+    width: 338px;/* 책 원래 너비는 348 */
+    height: 260px;
+    position: relative; 
+}
+.book3-2{
+    background-color: #fc580c;
+    width: 268px;/* 책 원래 너비는 348 */
+    height: 220px;
+    border: 40px solid #5eb4ed;
+    border-top: 20px solid #f7f5f2;
+    border-bottom: 20px solid #f7f5f2;
+    border-right: 40px solid #5eb4ed;
+    position: relative;
+}
+.pigbox{
+    width: 120px;
+    height: 60px;
+    background-color: transparent;
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+    right: 0;
+}
+.pigbody{
+    background-color: #494949;
+    width: 80px;
+    height: 40px;
+    border-radius: 15px 15px 0 0;
+}
+.piglegsbox{
+    width: 80px;
+    height: 40px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    justify-content: space-between;
+}
+.piglegs{
+    background-color: #494949;
+    width: 10px;
+    height: 15px;
+    border-radius: 0 0 4px 4px;
+}
+.pighead{
+    background-color: #494949;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: -10px;
+    left: 72px;
+    border-radius: 100%;
+}
+.ear1{
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 8px 15px 8px;
+    border-color: transparent transparent #494949 transparent;
+    transform: rotate(35deg);
+    position: absolute;
+    left: 28px;
+    top: -6px;
+}
+.ear2{
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 8px 15px 8px;
+    border-color: transparent transparent #494949 transparent;
+    transform: rotate(-35deg);
+    position: absolute;
+    left: -3px;
+    top: -6px;
+}
+.mouse1{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    left: 11px;
+    top: 20px;  
+}
+.mouse2{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    left: 19px;
+    top: 20px;  
+}
+.eye1{
+    width: 2px;
+    height: 2px;
+    border-radius: 100%;
+    background: #70fedd;
+    position: absolute;
+    top: 10px;
+    left: 13px;
+}
+.eye2{
+    width: 2px;
+    height: 2px;
+    border-radius: 100%;
+    background: #70fedd;
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+.pigtail{
+    background-color: #494949;
+    width: 7px;
+    height: 50px;
+    border-radius: 3px;
+    position: absolute;
+    top: -30px;
+    left: -7px;
+    transform: rotate(-30deg);
+}
+
+.window{
+    background-color: white;
+    width: 129px;
+    height: 220px;
+    border: 20px solid;
+    border-bottom: 20px solid #6197c6;
+    border-top: 20px solid #6197c6;
+    border-left: 20px solid #aee3fe;
+    border-right: 20px solid #aee3fe;
+    
+    position: absolute;
+    top: 0;
+    left: 179px;
+    opacity: 100%;
+    animation-name: opentoright;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-duration: 3s;
+    animation-direction: alternate;
+}
+@keyframes open{
+    from{transform: perspective(1) scaleZ(1) rotateX(0deg);}
+    to{transform: perspective(700px) scaleZ(2) rotateX(70deg);}
+}
+.window1{
+    background-color: white;
+    width: 129px;
+    height: 220px;
+    border: 20px solid;
+    border-bottom: 20px solid #6197c6;
+    border-top: 20px solid #6197c6;
+    border-left: 20px solid #aee3fe;
+    border-right: 20px solid #aee3fe;
+    position: absolute;
+    top: 0;
+    opacity: 100%;    
+}
+@keyframes opentoright{
+    from{transform: translateX(1);}
+    to{transform: translateX(-179px);}
+}
+.drawingbox{
+    width: 129px;
+    height: 220px;
+    margin-left: 0 auto;
+    background: transparent;
+    position: relative;
+    overflow: hidden;
+}
+.mountain{
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 100px 210px 100px;
+    border-color: transparent transparent #e7e3d9 transparent;
+    position: relative;
+    top: 30px;
+    left: -35px;
+    overflow: hidden;
+}
+.mountain2{
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 100px 210px 100px;
+    border-color: transparent transparent #baaf9a transparent;
+    position: absolute;
+    top: 30px;
+    left: -100px;
+    overflow: hidden;
+}
+.mountain3{
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 100px 210px 100px;
+    border-color: transparent transparent #baaf9a transparent;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    overflow: hidden;
+}
+.sun{
+    background-color: orangered;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    left: 18px; 
+}
+.sun2{
+    background-color: #fedcbd;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    left: 83px;
+}
+.book3-3{
+    background-color: #fc580c;
+    width: 268px;/* 책 원래 너비는 348 */
+    height: 300px;
+    border: 40px solid #5eb4ed;
+    border-top: 0px solid #f7f5f2;
+    border-bottom: 160px solid #f7f5f2;
+    border-right: 40px solid #5eb4ed;
+}
+.book4{
+    background-color: #fc580c;
+    width: 268px;/* 책 원래 너비는 348 */
+    height: 250px;
+    border: 80px solid #5eb4ed;
+    border-top: 160px solid #f7f5f2;
+    border-bottom: 0px solid #f7f5f2;
+    border-left: transparent;
+}
+.book4empty{
+    background-color: transparent;
+    width: 348px;/* 책 원래 너비는 348 */
+    height: 410px;
+    position: absolute;
+    top: 0;
+}
+.rollpaper{
+    position: relative;
+    left: 30px;    
+}
+.rollpaper:hover .part1{ 
+    background-color: #fef7e1;
+    width: 300px;
+    height: 100px;
+    transform: skewX(0deg);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 30px;   
+}
+.rollpaper:hover .part2{ 
+    background-color: #fef7e1;
+    width: 300px;
+    height: 100px;
+    transform: skewX(0deg);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 30px;   
+}
+.part1{
+    background: linear-gradient(to bottom, #0000 20.55%, #fef7e1 94.17%); 
+    background-color: #ddd2c5;
+    width: 300px;
+    height: 100px;
+    transform: skewX(10deg);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 30px;
+    transition: all 0.5s ease-in-out;
+}   
+.part2{
+    background-image: linear-gradient(to bottom, #0000 20.55%, #fef7e1 94.17%);
+    background-color: #ddd2c5;
+    width: 300px;
+    height: 100px;
+    transform: skewX(-10deg);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 30px;
+     transition: all 0.5s ease-in-out;
+}
+.book4-2{
+    background-color: #fc580c;
+    width: 268px;/* 책 원래 너비는 348 */
+    height: 280px;
+    border: 80px solid #5eb4ed;
+    border-top: 40px solid #f7f5f2;
+    border-bottom: 40px solid #f7f5f2;
+    border-left: 0px solid #5eb4ed;
+    position: relative;
+}
+.bookbox4-2{
+    width: 300px;
+    height: 330px;
+    background-color: transparent;
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    column-gap: 17px;
+    flex-wrap: wrap;
+    justify-content: flex-end;   
+}
+.realbooks4-2{
+    background-image: linear-gradient(to top, #ef6161, #fee6e6);
+    width: 230px;
+    height: 30px;
+    text-align: center;
+    letter-spacing : -0.1em;
+    line-height: 0.8em;
+    font-size: 10pt;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.standbook{
+    background-image: linear-gradient(to left, #ef6161, #f7b9b9, #ef6161);
+    width: 30px;
+    height: 330px;
+    writing-mode: vertical-rl;
+    text-align: center;
+    letter-spacing : -0.1em;
+    line-height: 0.8em;
+    font-size: 10pt;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-10deg);
+}
+.standbookcover{
+    background-color: transparent;
+    margin-top: 15px;
+    margin-left: 1px;
+    width: 150px;
+    height: 280px;
+    border: 60px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-top: 0;
+    border-right: 50px solid black;
+    transform: rotate(-10deg);
+    
+}
+
+
+
+
+
+.book4-3{
+    background-color: #fc580c;
+    width: 268px;/* 책 원래 너비는 348 */
+    height: 250px;
+    border: 80px solid #5eb4ed;
+    border-top: 0px solid #f7f5f2;
+    border-bottom: 160px solid #f7f5f2;
+    border-left: 0 solid #5eb4ed;
+    position: relative;
+}
+.book4-3box{
+    background-color: transparent;
+    width: 348px;
+    height: 410px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.book4-3-1{
+    background-color: transparent;
+    width: 89px;
+    height: 120px;
+    border: 80px solid #5eb4ed;
+    border-top: 0px solid;
+    border-bottom: 80px solid #f7f5f2;
+    border-left: 0;
+    left: 179px;
+    position: absolute;
+}
+.vase2empty{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.vase2box{
+    position: relative;
+    width: 100px;
+}
+.vase2head{
+    width: 96px;
+    height: 69px;
+    background: red linear-gradient(#8ee53f, #8ee53f, #8ee53f, #d7fdb8);
+    clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+    transform: rotate(180deg);
+}
+.vase2body{
+    background-color: #8ee53f;
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    left: 23px;
+    top: 30px;   
+}
+.vase2bottom{
+    width: 96px;
+    height: 69px;
+    background: red linear-gradient(#8ee53f, #8ee53f, #8ee53f, #d7fdb8);
+    clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+    transform: rotate(0deg);   
+}
+.vase2bodymid{
+    background-color: #8ee53f;
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    position: absolute;
+    top: 35px;
+    left: 15px;
+}
+.light-gradient{
+    background-image: radial-gradient(#d7fdb8, transparent, transparent);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 20px;    
+}
+.book4-3-2{
+    background-color: transparent;
+    width: 169px;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.halfline2{
+    background: #7cd0f8; 
+    width: 169px;
+    height: 10px;
+    position: absolute;
+    top: 200px;
+    right: 0;
+}
+.book4-3-3{
+    background-color: transparent;
+    width: 109px;
+    height: 250px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 60px solid #5eb4ed;
+    border-top: 0px solid #f7f5f2;
+    border-bottom: 160px solid #f7f5f2;
+    border-left: 0 solid #5eb4ed;   
+}
+
+
+
+
+
+
+.book5{
+    background-color: #fc580c;
+    width: 188px;/* 책 원래 너비는 348 */
+    height: 200px;
+    border: 160px solid #5eb4ed;
+    border-top: 160px solid #f7f5f2;
+    border-bottom: 0px solid #f7f5f2;
+    border-left: transparent;
+}
+.book5-2{
+    background-color: #fc580c;
+    width: 49px;/* 책 원래 너비는 169 */
+    height: 260px;
+    border: 120px solid #5eb4ed;
+    border-top: 80px solid #f7f5f2;
+    border-bottom: 20px solid #f7f5f2;
+    border-left: 0px solid #5eb4ed;
+    position:absolute;
+    float: right;
+}
+.book5-3{
+    background-color: #fc580c;
+    width: 9px;/* 책 원래 너비는 169 */
+    height: 260px;
+    border: 160px solid #5eb4ed;
+    border-top: 80px solid #f7f5f2;
+    border-bottom: 20px solid #f7f5f2;
+    border-left: 0px solid #5eb4ed;
+    position:absolute;
+    right:0; 
+}
+.blenk1{
+    background-color: transparent;
+    width: 348px;/* 책 원래 너비는 348 */
+    height: 360px;
+    position: relative;
+}
+.book5-4{
+    background-color: #fc580c;
+    width: 188px;/* 책 원래 너비는 348 */
+    height: 300px;
+    border: 160px solid #5eb4ed;
+    border-top: 0px solid #f7f5f2;
+    border-bottom: 160px solid #f7f5f2;
+    border-left: 0 solid #5eb4ed;
+}
+.bottom{
+    background-color: #7cd0f8;
+    width: 348px;/* 책 원래 너비는 348 */
+    height: 260px;
+    position: relative;
+}
+
+
+
+
