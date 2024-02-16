@@ -18,7 +18,7 @@ span{
     background-color: #fc580c;
     border: 10px solid #7cd0f8;
     width: 1780px;
-    height: 1470px;
+    height: 1200px;
     position:relative;
 }
 .box1{
@@ -114,7 +114,7 @@ span{
     position: absolute;
 }
 .realbooks{
-    background-image: linear-gradient(to top, #bada55, #f6fde2);
+    background-image: linear-gradient(to top, #8ee53f, #f6fde2);
     width: 230px;
     height: 30px;
     text-align: center;
@@ -204,56 +204,27 @@ span{
 }
 .bookbox1-2{
     width: 308px;
-    height: 180px;
+    height: 210px;
     background-color: transparent;
     position: absolute;
     bottom: 0;
-    right: 0;
+    left: 0;
     display: flex;
     flex-direction: column;
-    column-gap: 48px;
+    column-gap: 9px;
     flex-wrap: wrap;
     justify-content: flex-end;   
-}
-.ballbox{
-    width: 60px;
-    height: 60px;
-    display: flex;
-    flex-direction: column;
-    column-gap: 0;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    position: relative;
-    top: 10px;
-    left: 35px;
-}
-.ball{
-    background-color: antiquewhite;
-    width: 30px;
-    height: 30px;
-    border-radius: 100%;
-    display: flex;   
-}
-.ball2{
-    background-color: antiquewhite;
-    width: 30px;
-    height: 30px;
-    border-radius: 100%;
-    display: flex; 
-    position: absolute;
-    top: 15px;
-    left: 15px;
 }
 
 .shortbookstop{
     width: 0;
     height: 0;
-    border-left: 130px solid transparent;
-    border-bottom: 10px solid #1d63b3;
+    border-left: 170px solid transparent;
+    border-bottom: 10px solid white;
 }
 .shortbooks{
-    background-image: linear-gradient(to top, #1d63b3, white);
-    width: 130px;
+    background-image: linear-gradient(to top, #8ee53f, white);
+    width: 170px;
     height: 30px;
     align-items: center;
     display: flex;
@@ -261,6 +232,7 @@ span{
     letter-spacing : -0.1em;
     line-height: 1em;
     font-size: 10pt;
+    flex-direction: none;
 }
 .book1-4{
     background-color: #fc580c;
@@ -270,6 +242,73 @@ span{
     border-top: 0px solid #f7f5f2;
     border-bottom: 160px solid #f7f5f2;
     border-right: 0 solid #5eb4ed;
+    position: relative;
+}
+.bookbox1-4{
+    width: 348px;
+    height: 420px;
+    background-color: transparent;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding-top: 40px;
+    border: 10px solid #7cd0f8;
+    overflow: hidden;
+    
+}
+.shortbooks1-4{
+    background-image: linear-gradient(to top, red, white);
+    width: 130px;
+    height: 45px;
+    text-align: center;
+    letter-spacing : -0.1em;
+    line-height: 11px;
+    font-size: 10pt;
+    word-break: break-all;
+    margin-left: 118px; 
+}
+.books1-4{
+    background-image: linear-gradient(to top, #8ee53f, white);
+    width: 230px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    letter-spacing : -0.1em;
+    line-height: 1em;
+    font-size: 10pt;
+    margin-left: auto; 
+}
+.booktop1-4-2{
+    background: white;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    position: absolute;
+    top: 168px;
+    left: 118px;
+}
+.bookside1-4{
+    border-left: 80px solid #433c36;
+    border-bottom: 30px solid transparent;
+    border-top: 0 solid transparent;
+    height: 150px;
+    width: 0;
+    position: absolute;
+    top: 29px;
+    left: 248px;
+    transform: skewY(-15deg);
+}
+.booktop1-4-1{
+    border-bottom: 22px solid white;
+    border-left: 20px solid transparent;
+    border-right: 0 solid transparent;
+    height: 0px;
+    width: 109px;
+    position: absolute;
+    top: 18px;
+    left: 159px;
+    transform: skewX(-75deg);
 }
 .book2{
     background-color: #fc580c;
@@ -289,7 +328,7 @@ span{
     right: 0; 
 }
 .realbooks2{
-    background-image: linear-gradient(to top, #ef6161, #fee6e6);
+    background-image: linear-gradient(to top, #adadad, white);
     width: 230px;
     height: 30px;
     text-align: center;
@@ -303,7 +342,7 @@ span{
     align-items: center;
 }
 .realbooks3{
-    background-image: linear-gradient(to top, #fdef85, #fefcf0);
+    background-image: linear-gradient(to top, red, #fefcf0);
     width: 230px;
     height: 30px;
     text-align: center;
@@ -340,7 +379,7 @@ span{
     justify-content: flex-end;   
 }
 .shortbooks2-2{
-    background-image: linear-gradient(to top, #1d63b3, white);
+    background-image: linear-gradient(to top, #8ee53f, white);
     width: 130px;
     height: 45px;
     align-items: center;
@@ -351,7 +390,7 @@ span{
     font-size: 10pt;
 }
 .shortbooks2-2-1{
-    background-image: linear-gradient(to top, #70e958, white);
+    background-image: linear-gradient(to top, #8ee53f, white);
     width: 130px;
     height: 45px;
     align-items: center;
@@ -459,7 +498,38 @@ span{
 .book2-3-2{
     background-color: transparent;
     width: 169px;
-    height: 200px; 
+    height: 200px;
+    position: relative;
+}
+.bookbox2-3-2{
+    width: 169px;
+    height: 200px;
+    position: absolute;
+    background: transparent;
+    overflow: hidden;
+}
+.booktop2-3-2{
+    width: 130px;
+    height: 130px;
+    background-color: white;
+    transform: skewX(-25deg);
+    margin-left: 70px;
+    margin-top: 25px;
+}
+.shortbooks2-3-2{
+    background-image: linear-gradient(to top, red, white);
+    width: 130px;
+    height: 45px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    letter-spacing : -0.1em;
+    line-height: 1em;
+    font-size: 10pt;
+    right: 0;
+    margin-left: 118px; 
+    position: absolute;
+    bottom: 0;
 }
 .halfline{
     background: #7cd0f8; 
@@ -478,6 +548,24 @@ span{
     border-bottom: 160px solid #f7f5f2;
     border-right: 0 solid #5eb4ed;   
 }
+.emptybox2-3{
+    width: 169px;
+    height: 410px;
+    background: transparent;
+    position: absolute;
+    left: -60px;
+    overflow: hidden;
+}
+.paper2-3{
+    background-color: antiquewhite;
+    width: 100px;
+    height: 330px;
+    transform: skewY(-45deg) rotate(-10deg);
+    position: absolute;
+    left: 28px;
+    top: 10px;
+}
+
 .book3{
     background-color: #fc580c;
     width: 268px;/* 책 원래 너비는 348 */
@@ -625,9 +713,9 @@ span{
     justify-content: flex-end;   
 }
 .shortbooks2{
-    background-image: linear-gradient(to top, #1d63b3, white);
+    background-image: linear-gradient(to top, #8ee53f, white);
     width: 150px;
-    height: 30px;
+    height: 45px;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -637,12 +725,12 @@ span{
 }
 .bookright{
     background-color: transparent;
-    height: 200px;
+    height: 220px;
     width: 30px;
     position: absolute;
     bottom: 0;
     left: 150px;
-    border: 18px solid #1d63b3;
+    border: 18px solid #433c36;
     border-bottom: 0;
     border-top: 130px solid transparent;
     border-left: 0;
@@ -673,7 +761,7 @@ span{
     right: 0;
 }
 .pigbody{
-    background-color: #494949;
+    background-color: #433c36;
     width: 80px;
     height: 40px;
     border-radius: 15px 15px 0 0;
@@ -687,13 +775,13 @@ span{
     justify-content: space-between;
 }
 .piglegs{
-    background-color: #494949;
+    background-color: #433c36;
     width: 10px;
     height: 15px;
     border-radius: 0 0 4px 4px;
 }
 .pighead{
-    background-color: #494949;
+    background-color: #433c36;
     width: 40px;
     height: 40px;
     position: absolute;
@@ -706,7 +794,7 @@ span{
     height: 0px;
     border-style: solid;
     border-width: 0 8px 15px 8px;
-    border-color: transparent transparent #494949 transparent;
+    border-color: transparent transparent #433c36 transparent;
     transform: rotate(35deg);
     position: absolute;
     left: 28px;
@@ -717,7 +805,7 @@ span{
     height: 0px;
     border-style: solid;
     border-width: 0 8px 15px 8px;
-    border-color: transparent transparent #494949 transparent;
+    border-color: transparent transparent #433c36 transparent;
     transform: rotate(-35deg);
     position: absolute;
     left: -3px;
@@ -760,7 +848,7 @@ span{
     left: 25px;
 }
 .pigtail{
-    background-color: #494949;
+    background-color: #433c36;
     width: 7px;
     height: 50px;
     border-radius: 3px;
@@ -878,6 +966,48 @@ span{
     border-top: 0px solid #f7f5f2;
     border-bottom: 160px solid #f7f5f2;
     border-right: 40px solid #5eb4ed;
+    position: relative;
+}
+.blenk3-3{
+    width: 348px;
+    height: 460px;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: -40px;
+    bottom: -160px;
+    
+    
+}
+.bookbox3-3{
+    width: 348px;
+    height: 390px;
+    background-color: transparent;
+    position: absolute;
+    bottom: -120px;
+    margin-left: -40px;
+}
+.booktop3-3{
+    width: 192px;
+    height: 100px;
+    background-color: white;
+    transform: perspective(500px) scaleZ(2) rotateX(55deg);
+    top: 16px;
+    margin-left: 117px;
+    position: relative;
+    
+}
+.books3-3{
+    background-image: linear-gradient(to top, #adadad, white);
+    width: 230px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    letter-spacing : -0.1em;
+    line-height: 1em;
+    font-size: 10pt;
+    margin-left: 98px; 
 }
 .book4{
     background-color: #fc580c;
@@ -971,7 +1101,7 @@ span{
     justify-content: flex-end;   
 }
 .realbooks4-2{
-    background-image: linear-gradient(to top, #ef6161, #fee6e6);
+    background-image: linear-gradient(to top, red, #fee6e6);
     width: 230px;
     height: 30px;
     text-align: center;
@@ -985,7 +1115,7 @@ span{
     align-items: center;
 }
 .standbook{
-    background-image: linear-gradient(to left, #ef6161, #f7b9b9, #ef6161);
+    background-image: linear-gradient(to left, red, #f7b9b9, red);
     width: 30px;
     height: 330px;
     writing-mode: vertical-rl;
@@ -1009,14 +1139,9 @@ span{
     border: 60px solid transparent;
     border-bottom: 50px solid transparent;
     border-top: 0;
-    border-right: 50px solid black;
-    transform: rotate(-10deg);
-    
+    border-right: 50px solid #433c36;
+    transform: rotate(-10deg);  
 }
-
-
-
-
 
 .book4-3{
     background-color: #fc580c;
@@ -1046,6 +1171,33 @@ span{
     border-left: 0;
     left: 179px;
     position: absolute;
+}
+.bookbox4-3-1{
+    width: 169px;
+    height: 200px;
+    position: absolute;
+    background: transparent;
+    overflow: hidden;
+    left: 179px;
+}
+.booktop4-3-1{
+    width: 130px;
+    height: 20px;
+    background-color: white;
+    transform: skewX(60deg);
+    margin-left: -18px;
+    margin-top: 0px;
+}
+.shortbooks4-3-1{
+    background-image: linear-gradient(to top, #adadad, white);
+    width: 130px;
+    height: 45px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    letter-spacing : -0.1em;
+    line-height: 1em;
+    font-size: 10pt;   
 }
 .vase2empty{
     margin-top: 100px;
@@ -1101,6 +1253,35 @@ span{
     bottom: 0;
     right: 0;
 }
+.bookbox4-3-2{
+    width: 169px;
+    height: 200px;
+    position: absolute;
+    background: transparent;
+    overflow: hidden;
+}
+.booktop4-3-2{
+    width: 130px;
+    height: 110px;
+    background-color: white;
+    transform: skewX(30deg);
+    margin-left: -32px;
+    margin-top: 0px;
+}
+.shortbooks4-3-2{
+    background-image: linear-gradient(to top, #8ee53f, white);
+    width: 130px;
+    height: 45px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    letter-spacing : -0.1em;
+    line-height: 1em;
+    font-size: 10pt;   
+}
+
+
+
 .halfline2{
     background: #7cd0f8; 
     width: 169px;
@@ -1121,12 +1302,6 @@ span{
     border-bottom: 160px solid #f7f5f2;
     border-left: 0 solid #5eb4ed;   
 }
-
-
-
-
-
-
 .book5{
     background-color: #fc580c;
     width: 188px;/* 책 원래 너비는 348 */
@@ -1135,6 +1310,79 @@ span{
     border-top: 160px solid #f7f5f2;
     border-bottom: 0px solid #f7f5f2;
     border-left: transparent;
+    position: relative;   
+}
+.bookbox5-1{
+    width: 300px;
+    height: 180px;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    column-gap: 17px;
+    flex-wrap: wrap;
+    justify-content: flex-end;   
+}
+.realbooks5-1{
+    background-image: linear-gradient(to top, red, #fee6e6);
+    width: 230px;
+    height: 30px;
+    text-align: center;
+    letter-spacing : -0.1em;
+    line-height: 0.8em;
+    font-size: 10pt;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.pear {
+    width: 86px;
+    height: 86px;
+    margin-top: 19.2px;
+    background-image: radial-gradient(#fecf43, #d8d521, #bea121);
+    border-radius: 60% 15% 60% 60%;
+    transform: rotate(-75deg);
+    position: absolute;
+    left: 230px;
+}
+.pear:after{
+    content:"";
+    width: 5px;
+    height: 20px;
+    background-color:brown;
+    border-radius: 5px;
+    position:absolute;
+    z-index: 2;
+    top: -7px;
+    left: 80px;
+    transform: rotate(45deg);
+}
+.pear2{
+    width: 86px;
+    height: 86px;
+    margin-top: 0;
+    background-image: radial-gradient(#fdf385, #fcd707, #c59a0b);
+    border-radius: 60% 15% 60% 60%;
+    transform: rotate(-10deg);
+    position: absolute;
+    left: 262px;
+    top: 14px;
+}
+.pear2:after{
+    content:"";
+    width: 5px;
+    height: 20px;
+    background-color:brown;
+    border-radius: 5px;
+    position:absolute;
+    z-index: 2;
+    top: -7px;
+    left: 80px;
+    transform: rotate(45deg);
 }
 .book5-2{
     background-color: #fc580c;
@@ -1147,6 +1395,69 @@ span{
     position:absolute;
     float: right;
 }
+.bookbox5-2{
+    width: 308px;
+    height: 310px;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-end;   
+}
+.shortbooks5-2{
+    background-image: linear-gradient(to top, #adadad, white);
+    width: 169px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    letter-spacing : -0.1em;
+    line-height: 1em;
+    font-size: 10pt;
+}
+.emptybook5-2{
+    background: transparent;
+    width: 169px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    letter-spacing : -0.1em;
+    line-height: 1em;
+    font-size: 10pt;
+}
+.frame5-2{
+    background-image: url(image/me.jpg);
+    background-size: contain;
+    width: 70px;
+    height: 94px;
+    border: 15px solid #e5e5e5;
+    border-top: 15px solid #433c36;
+    border-bottom: 15px solid #433c36;
+    position: absolute;
+    top: 116px;
+    left: 25px;
+    transform: skewX(10deg);
+}
+.frameleg5-2{
+    background: #433c36;
+    width: 20px;
+    height: 60px;
+    transform: skewX(-20deg);
+    position: absolute;
+    top: 180px;
+    left: 15px;
+    overflow: hidden;
+}
+
+
+
+
+
 .book5-3{
     background-color: #fc580c;
     width: 9px;/* 책 원래 너비는 169 */
@@ -1172,12 +1483,37 @@ span{
     border-top: 0px solid #f7f5f2;
     border-bottom: 160px solid #f7f5f2;
     border-left: 0 solid #5eb4ed;
-}
-.bottom{
-    background-color: #7cd0f8;
-    width: 348px;/* 책 원래 너비는 348 */
-    height: 260px;
     position: relative;
+}
+.bookbox5-4{
+    width: 348px;
+    height: 360px;
+    background-color: transparent;
+    position: absolute;
+    top: 100px;
+    bottom: -160px;
+    overflow: hidden;
+}
+.booktop5-4{
+    width: 230px;
+    height: 60px;
+    background-color: white;
+    transform: skewX(55deg);
+    overflow: hidden;
+    margin-left: -43px;
+    
+}
+.books5-4{
+    background-image: linear-gradient(to top, #70e958, white);
+    width: 230px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    letter-spacing : -0.1em;
+    line-height: 1em;
+    font-size: 10pt;
+    margin-right: auto; 
 }
 
 
